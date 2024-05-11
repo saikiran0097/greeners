@@ -4,6 +4,8 @@ const express = require("express");
 // Create express app
 var app = express();
 
+
+
 // Add static files location
 app.use(express.static("static"));
 
