@@ -99,7 +99,7 @@ ALTER TABLE `ServiceProviders`
 --
 
 --
--- Constraints for table `Reviews`
+-- Constraits for table `Reviews`
 --
 ALTER TABLE `Reviews`
   ADD CONSTRAINT `reviews_ibfk_1` FOREIGN KEY (`ServiceProviderID`) REFERENCES `ServiceProviders` (`ServiceProviderID`);
